@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #eeeeee;
+    font-size: 40px;
+    margin: 0;
+}
+
+.black-box {
+    background: #080001;
+    color: #F94F6D;
+    width: 155px;
+    border-radius: 5px;
+    margin-block: 20px 30px;
+    padding-block: auto;
+    font-size: 90px;
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-points > * {
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+.new-game > * {
+    background-color: #F94F6D;
+    padding: 10px;
+    color: #eeeeee;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
